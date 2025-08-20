@@ -125,10 +125,10 @@ export default function AssemblyEndgame() {
     <main>
       {isGameWon && <Confetti recycle={false} numberOfPieces={1000} />}
       <header>
-        <h1>Assembly: Endgame</h1>
+        <h1>Hangman: PlanetFall</h1>
         <p>
-          Guess the word within 8 attempts to keep the programming world safe
-          from Assembly!
+          Guess the word within 8 attempts to keep the Earth safe from
+          Damnation!
         </p>
       </header>
 
