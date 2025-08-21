@@ -128,10 +128,7 @@ export default function AssemblyEndgame() {
       {isGameWon && <Confetti recycle={false} numberOfPieces={1000} />}
       <header>
         <h1>Hangman: PlanetFall</h1>
-        <p>
-          Guess the word within 8 attempts to keep the Earth safe from
-          Damnation!
-        </p>
+        <p>You have 8 chances. Fail, and the Nine Planets will fall.</p>
       </header>
 
       <section aria-live="polite" role="status" className={gameStatusClass}>
