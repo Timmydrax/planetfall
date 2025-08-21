@@ -112,8 +112,10 @@ export default function AssemblyEndgame() {
     if (isGameLost) {
       return (
         <>
-          <h2>Game over!</h2>
-          <p>You lose! Better start learning Assembly 😭</p>
+          <h2>☄️ Game Over!</h2>
+          <p style={{ textAlign: "center" }}>
+            Planetfall complete. The universe is no more.
+          </p>
         </>
       );
     }
